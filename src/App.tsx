@@ -1264,8 +1264,6 @@ const OnboardingFlow = ({ onComplete }: { onComplete: () => void }) => {
               </div>
             </motion.div>
           )}
-            </motion.div>
-          )}
 
 
           {/* ── STEP 4 — SUCCESS ──────────────────────────────────────── */}
@@ -1306,3 +1304,5 @@ const OnboardingFlow = ({ onComplete }: { onComplete: () => void }) => {
     </div>
   );
 };
+
+export default OnboardingFlow;
